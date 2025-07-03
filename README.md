@@ -27,17 +27,11 @@ We provide Julia notebooks in this repository. The three main ingredients requir
 
 ### Installing Julia
 Please refer to https://github.com/JuliaLang/juliaup where you will find all the needed resource to install Julia on your OS.
-Once installed, open a Julia REPL by typing `julia` in a shell. Then type:
-```julia
-using Pkg
-Pkg.add("IJulia")
-```
-so that Julia can be run inside Jupyter Notebooks.
 
-### Verifying your installations and enabling multithreading in Jupyter
-Run the notebook `installation.ipynb` using the following in a shell:
+### Installing the required packages and enabling multithreading in Jupyter
+Run the script `installation.jl` using the following in a shell:
 ```bash
-jupyter-notebook installation.ipynb
+julia installation.jl
 ```
 
 ### Installing PyMol
