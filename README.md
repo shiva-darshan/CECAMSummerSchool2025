@@ -1,14 +1,14 @@
-# ANR SINEQ Summer School 2023
-## Sampling high-dimension probability measures: applications in (non)equilibrium molecular dynamics and statistics
+# CECAM Summer School 2025
+## Sampling High-Dimensional Probability Measures with Applications in (Non)Equilibrium Molecular Dynamics and Statistics
 
-This repository contains the various files for the hands-on sessions of the SINEQ summer school @ CERMICS, September 2023. The schedule can be found [here](https://sites.google.com/view/aleiac/anr-sineq/summer-school-mol-dyn-on-julia).
+This repository contains the various files for the hands-on sessions of the CECAM summer school @ University of Birmingham, July 2025. The schedule can be found [here](https://www.cecam.org/workshop-details/summer-school-on-sampling-high-dimensional-probability-measures-with-applications-in-nonequilibrium-molecular-dynamics-and-statistics-1448).
 The files for each sessions are given below.
-* Monday, Sept. 25: [Discretization of Langevin dynamics and its Metropolization](notebooks/langevin.ipynb)
-* Tuesday, Sept. 26: [Nonequilibrium systems and coupling methods](notebooks/coupling.ipynb)
-* Wednesday, Sept. 27, morning: [Accelerated molecular dynamics methods](notebooks/par_rep.ipynb)
-* Wednesday, Sept. 27, afternoon: [Adaptive multilevel splitting methods](notebooks/AMS.ipynb) ([Answers](notebooks/AMSanswers.ipynb))
-* Thursday, Sept. 28: [Computing average properties in molecular dynamics with Molly.jl](notebooks/molly_average.ipynb)
-* Friday, Sept. 29: [Computation of transport coefficients with Molly.jl](notebooks/shear_viscosity.ipynb)
+* Tuesday Morning, July 8th: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
+* Tuesday Afternoon, July 8th: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
+* Wednesday Morning, July 9th: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
+* Wednesday Afternoon, July 9th : [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
+* Thursday Afternoon, July 10th, part 1: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
+*  Thursday Afternoon, July 10th, part 2: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
 
 ## Various installations
 We provide Julia notebooks in this repository. The three main ingredients required are Python (>=3.3 or 2.7, needed for Jupyter Notebook), Jupyter Notebook and Julia.
