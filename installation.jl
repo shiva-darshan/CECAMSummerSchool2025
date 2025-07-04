@@ -1,6 +1,7 @@
 import Pkg
 
 packages =  ["IJulia",
+	"PyPlot",
 	"Plots",
 	"LaTeXStrings",
 	"Cubature",
