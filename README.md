@@ -3,7 +3,7 @@
 
 This repository contains the various files for the hands-on sessions of the CECAM summer school @ University of Birmingham, July 2025. The schedule can be found [here](https://www.cecam.org/workshop-details/summer-school-on-sampling-high-dimensional-probability-measures-with-applications-in-nonequilibrium-molecular-dynamics-and-statistics-1448).
 The files for each sessions are given below.
-* Tuesday Morning, July 8th: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
+* Tuesday Morning, July 8th: [Sampling at equilibrium](notebooks/equilibrium_sampling.ipynb)
 * Tuesday Afternoon, July 8th: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
 * Wednesday Morning, July 9th: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
 * Wednesday Afternoon, July 9th : [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
