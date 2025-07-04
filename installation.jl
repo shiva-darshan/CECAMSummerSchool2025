@@ -11,7 +11,9 @@ packages =  ["IJulia",
 	"Bio3DView",
 	"KernelDensity",
 	"Measurements",
-	"Zygote"]
+	"Zygote",
+	"HTTP",
+	"JSON"]
 
 
 println("Installing Julia packages")
