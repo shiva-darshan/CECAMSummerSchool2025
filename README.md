@@ -11,28 +11,24 @@ The files for each sessions are given below.
 *  Thursday Afternoon, July 10th, part 2: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
 
 ## Various installations
-We provide Julia notebooks in this repository. The three main ingredients required are Python (>=3.3 or 2.7, needed for Jupyter Notebook), Jupyter Notebook and Julia.
-
-### Installing Python, Jupyter and scientific computing libraries
-* If Python is not installed on your system, install it using Anaconda. It conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data sciences. You can download Anaconda [here](https://www.anaconda.com/download) (install it with the latest Python version). Then install the version of Anaconda which you downloaded, following the instructions on the download page. Once installed, you can simply launch Jupyter Notebook by running in a shell:
-    ```bash
-    jupyter-notebook
-    ```
-
-* If you already have Python installed (>= 3.3 or 2.7), run the following commands in a shell (use pip instead of pip3 if you use 2.7):
-    ```bash
-    pip3 install --upgrade pip
-    pip3 install jupyter
-    ```
+We provide Julia notebooks in this repository. The three main ingredients required are Julia and Jupyter. You can either install Jupyter following the instructions [here](https://jupyter.org/install), or alternatively install Julia and the package IJulia which will manage its own Jupyter installation. We recommend the second option.
 
 ### Installing Julia
 Please refer to https://github.com/JuliaLang/juliaup where you will find all the needed resource to install Julia on your OS.
 
 ### Installing the required packages and enabling multithreading in Jupyter
-Run the script `installation.jl` using the following in a shell:
+
+Open the Julia REPL, and run the following commands:
+```julia
+import Pkg
+Pkg.add("IJulia")
+using IJulia
+
+notebook()
+```
+this will prompt you to install Jupyter. See also the IJulia instructions [here](https://juliapackages.com/p/IJulia).
+
+Run the script `installation.jl` using the following in a shell to install other required packages.
 ```bash
 julia installation.jl
 ```
-
-### Installing PyMol
-For the Molly session, the molecular visualization software PyMol is recommended. You can install it by following the instructions provided [here](https://pymol.org/2/support.html?#installation).
