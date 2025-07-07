@@ -1,7 +1,6 @@
 import Pkg
 
 packages =  ["IJulia",
-	"PyPlot",
 	"Plots",
 	"LaTeXStrings",
 	"Cubature",
@@ -14,13 +13,18 @@ packages =  ["IJulia",
 	"Measurements",
 	"Zygote",
 	"HTTP",
-	"JSON"]
+	"JSON",
+	"PyCall"
+	]
 
 
 println("Installing Julia packages")
 Pkg.add(packages)
 
+ENV["PYTHON"] = ""
+Pkg.build("PyCall")
 
+Pkg.add("PyPlot")
 
 println("Creating Julia kernel with multiple threads")
 using IJulia
