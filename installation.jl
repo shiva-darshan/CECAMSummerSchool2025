@@ -14,6 +14,7 @@ packages =  ["IJulia",
 	"Zygote",
 	"HTTP",
 	"JSON",
+	"ProgressMeter",
 	"PyCall"
 	]
 
