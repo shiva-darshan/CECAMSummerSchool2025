@@ -11,7 +11,7 @@ The files for each sessions are given below.
 *  Thursday Afternoon, July 10th, part 2: [NAME TK](notebooks/TK) *TODO: Filling name and path for notebook*
 
 ## Various installations
-We provide Julia notebooks in this repository. The three main ingredients required are Julia and Jupyter. You can either install Jupyter following the instructions [here](https://jupyter.org/install), or alternatively install Julia and the package IJulia which will manage its own Jupyter installation. We recommend the second option.
+We provide Julia notebooks in this repository. The two main ingredients required are Julia and Jupyter. You can either install Jupyter following the instructions [here](https://jupyter.org/install), or alternatively install Julia and the package IJulia which will manage its own Jupyter installation. We recommend the second option.
 
 ### Installing Julia
 Please refer to https://github.com/JuliaLang/juliaup where you will find all the needed resource to install Julia on your OS.
