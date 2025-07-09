@@ -5,8 +5,8 @@ This repository contains the various files for the hands-on sessions of the CECA
 The files for each sessions are given below.
 * Tuesday Morning, July 8th: [Sampling at equilibrium](notebooks/equilibrium_sampling.ipynb)
 * Tuesday Afternoon, July 8th: [Non-equilibrium molecular dynamics](notebooks/NEMD.ipynb)
-* Wednesday Morning, July 9th: [Thermal Transport](notebooks/NEMD_therm_cond_estimation.ipynb)
-* Wednesday Afternoon, July 9th : [NAME TK](notebooks/TK) *TODO: Fill in name and path for notebook*
+* Wednesday Morning, July 9th: [Thermal transport](notebooks/NEMD_therm_cond_estimation.ipynb)
+* Wednesday Afternoon, July 9th : [Variance reduction for thermal transport](notebooks/FULL_NEMD_therm_cond_estimation.ipynb) *TODO: Fill in name and path for notebook*
 * Thursday Afternoon, July 10th, part 1: [NAME TK](notebooks/TK) *TODO: Fill in name and path for notebook*
 *  Thursday Afternoon, July 10th, part 2: [NAME TK](notebooks/TK) *TODO: Fill in name and path for notebook*
 
